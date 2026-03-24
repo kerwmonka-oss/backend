@@ -42,4 +42,10 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
+  "scripts": {
+  "start": "node server.js",
+  "dev": "tsx server.ts",
+  "build": "vite build",
+  "preview": "vite preview"
+}
 }
